@@ -1,0 +1,33 @@
+<!-- .inner selects inner class children -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Nunito|Roboto+Condensed&display=swap" rel="stylesheet">
+        <title> This website exists. </title>
+        <link type="text/css" rel="stylesheet" href="styles.css">
+        <script src="scripts.js"></script> 
+    </head>
+    <body>
+        <div>
+            <div class="Why do I exist">
+                <h1> The pinacle of something </h1>
+            </div>
+            <div id="Body Text">
+                <ul>
+                    <li> You </li>
+                    <li> are </li>
+                    <li> given </li>
+                    <li> nothing </li>
+                    <li> but </li>
+                    <li> you </li>
+                    <li> gave </li>
+                    <li> it </li>
+                    <li> your </li>
+                    <li> all. </li>
+                </ul>
+            </div>
+        </div>        
+    </body>
+
+</html>

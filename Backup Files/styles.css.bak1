@@ -1,0 +1,13 @@
+li {
+    color: #FF0000;
+    font-family: Nunito, "sans-serif";
+}
+
+h1 {
+    font-family: "Roboto Condensed", "sans-serif";
+}
+
+body {
+    background-image: url("http://2.bp.blogspot.com/-MnSXa4hxhC0/UojtCOqkNeI/AAAAAAAABck/9LFI0lwKOnQ/s1600/Dowager+14.jpg");
+    background-size: cover;
+}

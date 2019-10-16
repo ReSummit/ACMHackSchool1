@@ -1,9 +1,52 @@
+<!-- .inner selects inner class children -->
+
 <!DOCTYPE html>
-<html>
-    <head>
-        <title> This website exists. </title>
-    </head>
-    <body>
-        <h1> Heh. </h1>
-    </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ACM Meme Gen</title>
+  <link type="text/css" rel="stylesheet" href="styles.css">
+  <script src="scripts.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <h1 id="acm">ACM UCSD Meme Gen</h1>
+        <div id="links-section">
+            <a class="link selected" href="index.html">Generator</a>
+            <a class="link" href="gallery.html">Gallery</a>
+        </div>
+    </div>
+
+    <h2 class="title">Meme Generator</h2>
+
+    <div class="left-col">
+        <img id="selected-meme" width=500 height=333 src="https://i.imgflip.com/1ur9b0.jpg"/>
+    </div>
+
+    <div class="right-col">
+        <div class="textboxes">
+            <div class="textbox">
+                <p>Text Box 1</p>
+                <textarea cols="50" rows="2"></textarea>
+            </div>
+            <div class="textbox">
+                <p>Text Box 2</p>
+                <textarea cols="50" rows="2"></textarea>
+            </div>
+        </div>
+
+        <!-- everything else goes here! -->
+    </div>
+
+    <div id="meme-templates">
+        <p id="meme-title">Distracted Boyfriend</p>
+        <img class="meme-selection" src="https://i.imgflip.com/1ur9b0.jpg" alt />
+        <img class="meme-selection" src="https://i.imgflip.com/30b1gx.jpg" alt />
+        <img class="meme-selection" src="https://i.imgflip.com/1g8my4.jpg" alt />
+        <img class="meme-selection" src="https://i.imgflip.com/1otk96.jpg" alt />
+        <img class="meme-selection" src="https://i.imgflip.com/24y43o.jpg" alt />
+    </div>
+            
+
+</body>
 </html>
